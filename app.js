@@ -5,9 +5,10 @@ var debug = require('debug')('crawler:app');
 var _ = require('lodash');
 var utils = require('./utils/setup.js');
 
-var client = require('redis').createClient(process.env.REDIS_URL || '');
-const {promisify} = require('util');
-const getAsync = promisify(client.get).bind(client);
+// TODO: Add this later
+// var client = require('redis').createClient(process.env.REDIS_URL || '');
+// const {promisify} = require('util');
+// const getAsync = promisify(client.get).bind(client);
 
 app.use(utils.bodyParser());
 
@@ -41,19 +42,18 @@ app.get('/', (request, response) => {
 app.get('/site/:url', function(request, response) {
 
 	// Parsing sitemap
-	getAsync(request.params.url)
-	.then((value) => {
+	// getAsync(request.params.url)
+	// .then((value) => {
 
-		// If found in redis parse as JSON then return
-		if (value) { return JSON.parse(value); }
+	// 	// If found in redis parse as JSON then return
+	// 	if (value) { return JSON.parse(value); }
 
-		// Otherwise go and get sitemaps
-		return sitemap(request.params.url); 
-	})
+	// 	// Otherwise go and get sitemaps
+	// 	return sitemap(request.params.url); 
+	// })
+	sitemap(request.params.url)
 	.then((results) => {
-		console.log(typeof results);
-		client.set(request.params.url, JSON.stringify(results), 'EX', 86400);
-		
+		// client.set(request.params.url, JSON.stringify(results), 'EX', 86400);
 		let data = { "name": request.params.url, "children": [] };
 		// debug(results);
 		results.forEach(function(url) {
