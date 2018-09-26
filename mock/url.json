@@ -1,0 +1,96 @@
+[{
+  "host": "mledwards.co.uk",
+  "path": "/",
+  "port": "",
+  "protocol": "http",
+  "uriPath": "/",
+  "url": "http://mledwards.co.uk/",
+  "depth": 1,
+  "fetched": true,
+  "status": "downloaded",
+  "stateData": {
+    "requestLatency": 81,
+    "requestTime": 83,
+    "contentLength": 0,
+    "contentType": "text/html",
+    "code": 200,
+    "headers": {
+      "content-type": "text/html",
+      "transfer-encoding": "chunked",
+      "connection": "close",
+      "date": "Fri, 03 Feb 2017 16:09:06 GMT",
+      "server": "Apache",
+      "last-modified": "Thu, 23 Jun 2016 09:09:33 GMT",
+      "etag": "W/\"3553-535ee69947c31\"",
+      "content-encoding": "gzip"
+    },
+    "downloadTime": 2,
+    "actualDataSize": 5943,
+    "sentIncorrectSize": true
+  },
+  "id": 0
+}, {
+  "host": "mledwards.co.uk",
+  "path": "/css/glyphicons.css",
+  "port": "",
+  "protocol": "http",
+  "uriPath": "/css/glyphicons.css",
+  "url": "http://mledwards.co.uk/css/glyphicons.css",
+  "depth": 2,
+  "referrer": "http://mledwards.co.uk/",
+  "fetched": true,
+  "status": "downloaded",
+  "stateData": {
+    "requestLatency": 122,
+    "requestTime": 127,
+    "contentLength": 14282,
+    "contentType": "text/css",
+    "code": 200,
+    "headers": {
+      "content-type": "text/css",
+      "content-length": "14282",
+      "connection": "close",
+      "date": "Fri, 03 Feb 2017 16:09:06 GMT",
+      "server": "Apache",
+      "last-modified": "Mon, 08 Feb 2016 19:34:28 GMT",
+      "etag": "\"37ca-52b474a11212e\"",
+      "accept-ranges": "bytes"
+    },
+    "downloadTime": 5,
+    "actualDataSize": 14282,
+    "sentIncorrectSize": false
+  },
+  "id": 1
+}, {
+  "host": "mledwards.co.uk",
+  "path": "/css/main.css",
+  "port": "",
+  "protocol": "http",
+  "uriPath": "/css/main.css",
+  "url": "http://mledwards.co.uk/css/main.css",
+  "depth": 2,
+  "referrer": "http://mledwards.co.uk/",
+  "fetched": true,
+  "status": "downloaded",
+  "stateData": {
+    "requestLatency": 71,
+    "requestTime": 72,
+    "contentLength": 1223,
+    "contentType": "text/css",
+    "code": 200,
+    "headers": {
+      "content-type": "text/css",
+      "content-length": "1223",
+      "connection": "close",
+      "date": "Fri, 03 Feb 2017 16:09:06 GMT",
+      "server": "Apache",
+      "last-modified": "Mon, 08 Feb 2016 19:34:28 GMT",
+      "etag": "\"4c7-52b474a133472\"",
+      "accept-ranges": "bytes"
+    },
+    "downloadTime": 1,
+    "actualDataSize": 1223,
+    "sentIncorrectSize": false
+  },
+  "id": 2
+}]

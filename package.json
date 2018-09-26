@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "DEBUG=crawler:* nodemon --ext js,handlebars app/index.js",
+    "start": "DEBUG=crawler:* node app/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "debug": "^2.6.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.4",
+    "redis": "^2.6.5",
+    "sitemap-stream-parser": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
+}
