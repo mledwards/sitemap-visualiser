@@ -7,4 +7,4 @@ You'll need to have redis installed and then run `redis-server` in a terminal wi
 `gulp`
 
 ## Live demo
-[https://this-is-probably-your-postcode.spin-up.io/](https://sitemap-visualiser.spin-up.io/)
+[https://tree.spin-up.io/](https://sitemap-visualiser.spin-up.io/)
