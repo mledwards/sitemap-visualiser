@@ -3,7 +3,7 @@ const debug = require('debug')('crawler:sitemap');
 
 function parseSitemap(url) {
 	return new Promise((resolve, reject) => {
-		let sitemapUrl = [`http://${url}/sitemap.xml`, `https://${url}/sitemap.xml` ];
+		let sitemapUrl = [`http://${url}/sitemap.xml`, `https://${url}/sitemap.xml`, `http://${url}/XmlSitemap.aspx`, `https://${url}/XmlSitemap.aspx` ];
 		debug('Start looking at sitemaps', sitemapUrl);
 
 		// To store all page URLs
