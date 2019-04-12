@@ -26,7 +26,7 @@ app.set('view engine', '.html');
 
 // Start Crawler
 app.post('/', (request, response, next) => {
-	let displayUrl = request.body.url.replace(/http(s)?:\/\//g, '').replace(/\//g, '');
+	let displayUrl = request.body.url.replace(/http(s)?:\/\//g, '').replace(/\//g, '%2F');
 	// Redirect to the spider render page
 	// TODO: Only does root domains
 	return response.redirect('/site/' + displayUrl);
