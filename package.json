@@ -6,15 +6,15 @@
   "dependencies": {
     "body-parser": "^1.16.0",
     "debug": "^2.6.0",
-    "express": "^4.14.1",
-    "express-handlebars": "^3.0.0",
-    "lodash": "^4.17.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "lodash": "^4.17.11",
     "redis": "^2.6.5",
-    "sitemap-stream-parser": "^1.4.0"
+    "sitemap-stream-parser": "^1.7.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.2.1"
+    "gulp-nodemon": "^2.4.2"
   }
 }
