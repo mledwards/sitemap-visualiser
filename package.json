@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "DEBUG=crawler:* nodemon --ext js,handlebars app.js",
-    "start": "DEBUG=crawler:* node app.js"
+    "dev": "DEBUG=crawler:* nodemon --ext js,handlebars index.js",
+    "start": "DEBUG=crawler:* node index.js"
   },
   "dependencies": {
     "body-parser": "^1.16.0",

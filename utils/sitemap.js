@@ -23,7 +23,7 @@ function parseSitemap(url) {
 					debug('ERROR', err); 
 					reject(err);
 				}
-			    
+			    debug('foundURLs total', foundURLs.length)
 			    debug('foundURLs', foundURLs);
 			    resolve(foundURLs);
 			}
