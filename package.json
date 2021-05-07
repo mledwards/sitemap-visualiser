@@ -8,7 +8,7 @@
     "debug": "^2.6.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "redis": "^2.6.5",
     "sitemap-stream-parser": "^1.7.0"
   },
